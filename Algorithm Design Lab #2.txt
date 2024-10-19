@@ -1,0 +1,23 @@
+Corey Keller
+1.24.24
+Lab 2
+
+Problem Description: Create a program that uses the conversion rates of Dungeons and Dragons currency and variables equal to the currency value in comparison to gold to create solutions to the conversion rates. The variables should all be created to reflect the value of gold the user wants to convert. Many different types of variables need to be created, such as int, float, and str variables. This will allow the conversion of lower forms of currency to higher. After the variables are created and put into the formula, a paragraph should be created to output a message that gives the answer to the problem, as it changes with the variables.
+
+Algorithm Design:
+
+Step 1: Start creation of the variables that reflect the value of currencies in comparison to gold.
+
+Step 2: Create variables for gold, copper, silver, platinum, and electrum with the subsequent values in order: 1, 100, 10, float(.1), 2.
+
+Step 3: Create variables for starting gold to assign a value that differentiates the equations for currency types.
+
+Step 4: Create variables containing the formulas for the conversion rates of each type of currency with the general formula "int(currencyType/gold*startingGold#). Platinum will need to be created as a float variable to reflect the true value down to the decimal. This variable can further be rounded to the desired decimal place, but will be 1 decimal place generally.
+
+Step 5: Create string variables that create statements using the variables created. The relative formula for the statements should be as follows: "The amount of 'currencyType' that " + str(startingGold#) + " gold is in terms of 'currencyType' is " + str(currencyAmount) + ". "
+
+Step 6: Create two more variables for an introduction sentence and ending sentence. These sentences are as follows: "The conversion rates of Dungeons and Dragons currency from gold to other forms of currency is easy to comprehend. " and "Using this, you can apply any amount of gold to find out how much money you have in different coinage."
+
+Step 7: Combine the variables into one variable called "message" that can be printed as a paragraph with a new line in between each variable. The final variable that will be output should start with the first sentence variable created, the statement variables regarding the currency conversions, and the final end sentence variable.
+
+Step 8: Print "message" variable.
